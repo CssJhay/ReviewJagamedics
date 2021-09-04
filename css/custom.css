@@ -1,11 +1,15 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,%20300i,%20400,%20400i,%20700');
-    @import url('/fonts.googleapis.com/css2943?family=Montserrat:400,%20700');
+@import url('/fonts.googleapis.com/css2943.html?family=Montserrat:400,%20700');
     body {
     padding: 0;
     margin: 0;
-    font: 400 14px/24px 'Open Sans', sans-serif;
+    font-family: Gill Sans, Gill Sans MT;
+    src: url('../fonts/Gill.html\ Sans.otf');
     color: #777;
 }
+
+
+   
 #wrapper {
     float: left;
     width: 100%;
@@ -15,14 +19,6 @@
     float: left;
     width: 100%;
 }
-#service-row{
-    background-image: url(../images/call-action-bg.png) ;
-     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
 .theme-style-1 h1 {
     font: 700 55px 'Montserrat', sans-serif;
     color: #222;
@@ -30,13 +26,13 @@
 }
 .theme-style-1 h2 {
     font: 700 36px 'Montserrat', sans-serif;
-    color: #e613b1;
+    color: #7c144d;
     text-transform: uppercase;
     margin: 0 0 20px 0;
 }
 .theme-style-1 h3 {
     font: 400 24px/28px 'Montserrat', sans-serif;
-    color: #e613b1;
+    color: #fff;
     margin: 0 0 10px 0;
 }
 .theme-style-1 h4 {
@@ -53,7 +49,7 @@
 .theme-style-1 p {
     font: 400 14px/24px 'Open Sans', sans-serif;
     color: #777;
-    margin: 0 0 0px 0;
+    margin: 0 0 20px 0;
 }
 .theme-style-1 h1 a, .theme-style-1 h2 a, .theme-style-1 h3 a, .theme-style-1 h4 a {
     color: #222;
@@ -81,7 +77,7 @@ a.btn-style-1 {
     color: #fff;
     padding: 20px 37px;
     text-decoration: none;
-    float: right;
+    float: left;
     position: relative;
     z-index: 11;
     text-decoration: none;
@@ -104,40 +100,7 @@ a.btn-style-1:before {
     top: 0;
     height: 100%;
     width: 50%;
-    background-color: #007daa;
-    z-index: -1;
-    opacity: 0;
-    transition: all 0.5s linear;
-}
-a.btn-style-1g {
-    font: 400 16px/16px 'Montserrat', sans-serif;
-    color: #fff;
-    padding: 20px 37px;
-    text-decoration: none;
-    float: right;
-    position: relative;
-    z-index: 11;
-    text-decoration: none;
-    transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-}
-a.btn-style-1g:hover {
-    color: #fff;
-    text-decoration: none;
-}
-a.btn-style-1g:hover:before {
-    width: 100%;
-    opacity: 1;
-}
-a.btn-style-1g:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 50%;
-    background-color: gray;
+    background-color: #1c2628;
     z-index: -1;
     opacity: 0;
     transition: all 0.5s linear;
@@ -264,7 +227,7 @@ a.btn-readmore:hover {
     right: 0;
     bottom: -46px;
     margin: auto;
-    background: url(../images/NIG/heading-center-line-2.png) no-repeat center bottom;
+    background: url(../images/heading-center-line-2.png) no-repeat center bottom;
     width: 234px;
     height: 40px;
 }
@@ -280,20 +243,6 @@ a.btn-readmore:hover {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
-    background: url(../images/heading-left-line-1.png) no-repeat left bottom;
-    width: 109px;
-    height: 7px;
-}
-.heading-right {
-    float: right;
-    position: relative;
-    margin: 0 0 20px 0;
-}
-.heading-right:before {
-    content: '';
-    position: absolute;
-    right: 0;
     bottom: 0;
     background: url(../images/heading-left-line-1.png) no-repeat left bottom;
     width: 109px;
@@ -444,7 +393,7 @@ a.btn-readmore:hover {
     float: left;
     width: 100%;
     padding: 20px 0;
-    /*background: #ffd200;*/
+    /*background: #7c144d;*/
 }
 strong.logo {
     float: left;
@@ -805,22 +754,21 @@ strong.logo {
     float: left;
     width: 100%;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 #banner img {
     display: block;
-    object-fit: cover;
     width: 100%;
 }
 #banner .caption {
     position: absolute;
     left: 0;
-    bottom: 0;
-    background:rgba(0, 0, 0, 0.4);
+    top: 165px;
     width: 100%;
 }
 #banner .caption .holder {
     float: left;
+    width: 560px;
     padding: 0;
 }
 #banner .caption .holder h1 {
@@ -831,18 +779,11 @@ strong.logo {
     text-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
 }
 #banner .caption .holder h2 {
-    color: #000;
+    color: #fff;
     text-transform: none;
     font-weight: 400;
     text-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
-    margin: 0 0 0 0;
-}
-#banner .caption .text-center h2 {
-    
-    color: #7c144d;
-    margin-top: 20px;
-    text-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
-    
+    margin: 0 0 37px 0;
 }
 #banner .caption .holder a.btn-style-1 {
     margin: 0 11px 0 0;
@@ -874,8 +815,7 @@ strong.logo {
 .why-choose-box-row {
     float: left;
     width: 100%;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .why-choose-box-row .col-md-4 {
     border-bottom: 1px solid #ccc;
@@ -886,7 +826,7 @@ strong.logo {
     width: 100%;
     text-align: center;
     padding: 40px 45px;
-    /*min-height: 298px;*/
+    min-height: 298px;
 }
 .why-choose-box:before {
     position: absolute;
@@ -927,7 +867,7 @@ strong.logo {
 .priorities {
     float: left;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 .priorities a.btn-style-2:before, .priorities a.btn-style-2:after {
     background: #fff;
@@ -1035,8 +975,6 @@ strong.logo {
     float: left;
     width: 100%;
     margin-bottom: 80px;
-    margin-top: 20px;
-    height: 500px;
 }
 .project-section .holder {
     margin: 0 auto;
@@ -1044,13 +982,13 @@ strong.logo {
     width: 1200px;
     height: 235px;
     padding: 80px 0;
-/*    background: #000 url(../images/project-bg.png) no-repeat left top;*/
+    background: #000 url(../images/project-bg.png) no-repeat left top;
 }
 .project-section .holder h2 {
     color: #fff;
 }
 .project-section .heading-center:before {
-    background: url(../images/NIG/heading-center-line-2.png) no-repeat center bottom;
+    background: url(../images/heading-center-line-1.png) no-repeat center bottom;
 }
 .project-row {
     float: left;
@@ -1062,7 +1000,7 @@ strong.logo {
     margin-bottom: 30px;
 }
 .project-row .project-box .frame-outer {
-    padding: 0 0px;
+    padding: 0 10px;
     float: left;
     width: 100%;
 }
@@ -2303,7 +2241,7 @@ input.input-text, select, textarea, span.custom-select {
 .exeutive-section {
     float: left;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 .exeutive-section .container-fluid {
     padding: 0;
@@ -2376,9 +2314,9 @@ input.input-text, select, textarea, span.custom-select {
     padding: 54px 0;
 }
 .message-box {
-/*    width: 555px;*/
+    width: 555px;
     border: 1px solid #ccc;
-    background: #7c144d;
+    background: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -2730,7 +2668,7 @@ strong.footer-logo {
 }
 .footer-section-2 address p {
     line-height: 26px;
-    color: #ababab;
+    color: #fff;
     margin: 0 0 0 20px;
     position: relative;
 }
@@ -3998,7 +3936,7 @@ strong.footer-logo {
     animation: none;
 }
 .team-style-2 .box:hover .text-box {
-    height: 166px;
+    height: 166px;  
 }
 .team-style-2 .box:hover .text-box h4 a, .team-style-2 .box:hover .text-box span {
     color: #fff;
@@ -4412,23 +4350,31 @@ strong.footer-logo {
 .causes-style-2 .donation-progress .progress-outer {
     height: 15px;
 }
+@media screen and (min-width: 3999px) {
+    /* Specific to this particular image */
+    .inner-banner {
+        left: 50%;
+        margin-left: -512px;
+        /* 50% */
+    }
+}
 .inner-banner {
     float: left;
     width: 100%;
-    background: #bcbcbc url(../images/NIG/Spinner4.jpg) no-repeat left top;
-    padding: 125px 0;
+    background: #808080 url(../images/NIG/Spinner5.jpg) no-repeat left top;
         background-size:cover;
 
+    padding: 125px 0;
     height: 400px;
     margin-bottom: 100px;
 }
 .inner-banner h1 {
-    line-height: 137px;
+    line-height: 150px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 7px 5px rgba(0, 0, 0, 0.45);
-    margin: 0 0 122px 0;
+    margin: 0 0 109px 0;
 }
 .inner-banner .breadcrumb {
     background-color: #fff;
@@ -4793,7 +4739,7 @@ strong.coming-logo {
     margin: 0;
 }
 /*.AboutUS h4 a{
-        color: #ffd200;
+        color: #7c144d;
 }*/
 .AboutUS .panel-default>.panel-heading{
     background: transparent;
@@ -4850,14 +4796,17 @@ strong.coming-logo {
 .signup {
     float: left;
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
+}
+#holderfddfds {
+    height: 0px;
 }
 .signup .holder {
     width: 360px;
     margin: 0 auto;
     display: block;
 }
-.signup .holder form input[type="text"] {
+.signup .holder form input[type="text"], .signup .holder form input[type="password"] {
     float: left;
     width: 100%;
     border: 1px solid #ccc;
@@ -4914,7 +4863,7 @@ strong.coming-logo {
 }
 .new-account a{
         font: 400 14px 'Montserrat', sans-serif;
-    color: #777;
+    color: #7c144d;
    
 }
 .new-account{
@@ -5010,7 +4959,7 @@ strong.coming-logo {
 .contact-section {
     float: left;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 .contact-form {
     float: left;
@@ -5087,13 +5036,13 @@ strong.coming-logo {
     float: left;
     padding: 0 0 6px 0;
     font: 400 16px/26px 'Open Sans', sans-serif;
-    color: #007daa;
+    color: #777;
     position: relative;
     margin: 0 74px 0 0;
     width: 202px;
 }
 .address-box ul li .fa {
-    color: #007daa;
+    color: #ababab;
     width: 28px;
 }
 .address-box p {
@@ -5109,7 +5058,7 @@ strong.coming-logo {
 .address-box ul li a {
     text-decoration: none;
     font: 400 16px/26px 'Open Sans', sans-serif;
-    color: #007daa;
+    color: #777;
 }
 .contact-map-box {
     float: left;
@@ -5331,14 +5280,13 @@ strong.coming-logo {
     border: 0;
     padding: 0;
     font: 400 16px 'Montserrat', sans-serif;
-    color: #000;
+    color: #fff;
     border: 2px solid rgba(0, 0, 0, 0);
 }
 .donation-form form input[type="submit"]:hover {
-    color: #fff;
-    background: #7c144d;
+    color: #222;
+    background: #fff;
     border: 2px solid;
-
 }
 .recent-post {
     float: left;
@@ -5421,6 +5369,24 @@ strong.coming-logo {
 }
 .popular-post ul li span .fa {
     padding: 0 6px 0 0;
+}
+.borred
+{
+    border: 2px solid #976d84 !important ;
+    border-bottom-right-radius: 20px !important ;
+    border-top-right-radius: 20px !important ;
+}
+.borbutton
+{   background-color: #976d84 !important ;
+    border-radius: 20px !important ;
+    border: none ;
+  color: white  !important ;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+     float: right;
+    margin-bottom: 20px
 }
 .archives-widget {
     float: left;
@@ -5638,7 +5604,7 @@ input.radio+label>span.show:before {
 .form-row input[type="text"] {
     float: left;
     width: 100%;
-    border: 1px solid #ccc;
+    border: px solid #ccc;
     height: 45px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -6057,7 +6023,7 @@ input.radio+label>span.show:before {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 15px;
-    color: #666666;
+    color: #007daa;
     font-weight: 600;
     display: block;
     position: relative;
@@ -6140,10 +6106,10 @@ input.radio+label>span.show:before {
     color: #ffffff;
 }
 .gt-usser-account-list ul li:hover a{
-        background-color: #1c2628;
+        background-color: #7c144d;
 }
 .gt-usser-account-list ul li.active{
-    background-color: #1c2628;
+    background-color: #fafafb;
 }
 .gt-usser-account-list ul li.active a{
  color: #ffffff;
@@ -6231,5 +6197,13 @@ input.hidden {
 .inputfile + label i{
     font-size: 15px;
     padding-right: 10px;
+}
+.table-bg > tbody > tr:nth-child(odd) > td, 
+.table-bg > tbody > tr:nth-child(odd) > th { 
+	background: #fff; 
+}
+.table-bg > tbody > tr:nth-child(even) > td, 
+.table-bg > tbody > tr:nth-child(even) > th { 
+	background: #007daa; 
 }
 /**/
